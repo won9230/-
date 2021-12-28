@@ -20,6 +20,7 @@ public class Player : MonoBehaviourPunCallbacks
 	{
 		if (!photonView.IsMine)
 		{
+			Debug.Log("asd");
 			return;
 		}
 
