@@ -14,13 +14,13 @@ public class Player : MonoBehaviourPunCallbacks
 	private void Start()
 	{
 		rigidbody = GetComponent<Rigidbody>();
+		Debug.Log("asd");
 	}
 
 	private void Update()
 	{
 		if (!photonView.IsMine)
 		{
-			Debug.Log("asd");
 			return;
 		}
 
